@@ -1,4 +1,5 @@
 function ExibeBoleto() {
+    inserirLinhaTabela();
     if (document.getElementById("selectFormPag").value == 'Boleto') {
 
         document.getElementById("ForPagChavePix").value = ''
@@ -781,7 +782,8 @@ function _init(data, info) {
             document.getElementById("ForPagAgencia").setAttribute("value", ForPagAgencia);
             document.getElementById("ForPagConta").setAttribute("value", ForPagConta);
             document.getElementById("ForPagChavePix").setAttribute("value", ForPagChavePix);
-
+            
+            inserirLinhaTabela();
         }
     });
 }
