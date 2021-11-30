@@ -722,16 +722,16 @@ function _init(data, info) {
             document.getElementById("DatParUm").setAttribute("value", DatParUm);
             document.getElementById("CodBolUm").setAttribute("value", CodBolUm);
 
-            if(document.getElementById("DescParDois").value != null){
-                document.getElementById("DescParDois").setAttribute("value", DescParDois);
+            if(document.getElementById("DescParDois").value != "undefined"){
+            document.getElementById("DescParDois").setAttribute("value", DescParDois);
             }
-            if(document.getElementById("VlrParDois").value != null){
-                document.getElementById("VlrParDois").setAttribute("value", VlrParDois);
+            if(document.getElementById("VlrParDois").value != "undefined"){
+            document.getElementById("VlrParDois").setAttribute("value", VlrParDois);
             }
-            if(document.getElementById("DatParDois").value != null){
+            if(document.getElementById("DatParDois").value != "undefined"){
             document.getElementById("DatParDois").setAttribute("value", DatParDois);
             }
-            if(document.getElementById("CodBolDois").value != null){
+            if(document.getElementById("CodBolDois").value != "undefined"){
             document.getElementById("CodBolDois").setAttribute("value", CodBolDois);
             }
 
