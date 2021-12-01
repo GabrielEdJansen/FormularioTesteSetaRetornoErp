@@ -326,7 +326,8 @@ function inserirLinhaTabela() {
         }
         calculaTotal()
     }
-    if (document.getElementById("VlrParUm").value != 0) {
+
+    if ((document.getElementById("VlrParDois").value != 0) && (document.getElementById("VlrParDois").value != "undefined"))  {
         let eVal = document.getElementById('parcela2');
 
         eVal.style.display = 'flex';
@@ -338,7 +339,7 @@ function inserirLinhaTabela() {
         }
         calculaTotal()
     }
-    if (document.getElementById("VlrParDois").value != 0) {
+    if (document.getElementById("VlrParTres").value != 0) {
         let eVal = document.getElementById('parcela3');
 
         eVal.style.display = 'flex';
@@ -350,7 +351,7 @@ function inserirLinhaTabela() {
         }
         calculaTotal()
     }
-    if (document.getElementById("VlrParTres").value != 0) {
+    if (document.getElementById("VlrParQuatro").value != 0) {
         let eVal = document.getElementById('parcela4');
 
         eVal.style.display = 'flex';
@@ -362,7 +363,7 @@ function inserirLinhaTabela() {
         }
         calculaTotal()
     }
-    if (document.getElementById("VlrParQuatro").value != 0) {
+    if (document.getElementById("VlrParCinco").value != 0) {
         let eVal = document.getElementById('parcela5');
 
         eVal.style.display = 'flex';
@@ -374,7 +375,7 @@ function inserirLinhaTabela() {
         }
         calculaTotal()
     }
-    if (document.getElementById("VlrParCinco").value != 0) {
+    if (document.getElementById("VlrParSeis").value != 0) {
         let eVal = document.getElementById('parcela6');
 
         eVal.style.display = 'flex';
@@ -386,7 +387,7 @@ function inserirLinhaTabela() {
         }
         calculaTotal()
     }
-    if (document.getElementById("VlrParSeis").value != 0) {
+    if (document.getElementById("VlrParSete").value != 0) {
         let eVal = document.getElementById('parcela7');
 
         eVal.style.display = 'flex';
@@ -398,7 +399,7 @@ function inserirLinhaTabela() {
         }
         calculaTotal()
     }
-    if (document.getElementById("VlrParSete").value != 0) {
+    if (document.getElementById("VlrParOito").value != 0) {
         let eVal = document.getElementById('parcela8');
 
         eVal.style.display = 'flex';
@@ -410,7 +411,7 @@ function inserirLinhaTabela() {
         }
         calculaTotal()
     }
-    if (document.getElementById("VlrParOito").value != 0) {
+    if (document.getElementById("VlrParNove").value != 0) {
         let eVal = document.getElementById('parcela9');
 
         eVal.style.display = 'flex';
@@ -422,7 +423,7 @@ function inserirLinhaTabela() {
         }
         calculaTotal()
     }
-    if (document.getElementById("VlrParNove").value != 0) {
+    if (document.getElementById("VlrParDez").value != 0) {
         let eVal = document.getElementById('parcela10');
 
         eVal.style.display = 'flex';
@@ -434,7 +435,7 @@ function inserirLinhaTabela() {
         }
         calculaTotal()
     }
-    if (document.getElementById("VlrParDez").value != 0) {
+    if (document.getElementById("VlrParOnze").value != 0) {
         let eVal = document.getElementById('parcela11');
 
         eVal.style.display = 'flex';
@@ -446,7 +447,7 @@ function inserirLinhaTabela() {
         }
         calculaTotal()
     }
-    if (document.getElementById("VlrParOnze").value != 0) {
+    if (document.getElementById("VlrParDoze").value != 0) {
         let eVal = document.getElementById('parcela12');
 
         eVal.style.display = 'flex';
@@ -722,18 +723,10 @@ function _init(data, info) {
             document.getElementById("DatParUm").setAttribute("value", DatParUm);
             document.getElementById("CodBolUm").setAttribute("value", CodBolUm);
 
-            if(document.getElementById("DescParDois").value != "undefined"){
             document.getElementById("DescParDois").setAttribute("value", DescParDois);
-            }
-            if(document.getElementById("VlrParDois").value != "undefined"){
             document.getElementById("VlrParDois").setAttribute("value", VlrParDois);
-            }
-            if(document.getElementById("DatParDois").value != "undefined"){
             document.getElementById("DatParDois").setAttribute("value", DatParDois);
-            }
-            if(document.getElementById("CodBolDois").value != "undefined"){
             document.getElementById("CodBolDois").setAttribute("value", CodBolDois);
-            }
 
             document.getElementById("DescParTres").setAttribute("value", DescParTres);
             document.getElementById("VlrParTres").setAttribute("value", VlrParTres);
