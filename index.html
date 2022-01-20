@@ -78,11 +78,19 @@
         <div class="invalid-feedback">*Campo Obrigatório</div>
       </div>
 
-      <div class="col-md-6">
-        <label for="Cnpj" class="form-label">CNPJ</label>
+       <div class="col-md-6">
+        <label for="Cnpj" class="form-label">CNPJ/CPF</label>
         <input id="Cnpj" name="Cnpj" required
           class="form-control ng-scope ng-touched ng-dirty ng-empty ng-valid-mask ng-valid ng-valid-parse ng-valid-required ng-valid-pattern">
-        <script type="text/javascript">$("#Cnpj").mask("99.999.999-999");</script>
+        <script type="text/javascript">
+          $('#Cnpj').mask('000.000.000-00', {
+            onKeyPress: function (Cnpj, e, field, options) {
+              const masks = ['000.000.000-000', '00.000.000/0000-00'];
+              const mask = (Cnpj.length > 14) ? masks[1] : masks[0];
+              $('#Cnpj').mask(mask, options);
+            }
+          });
+        </script>
         <div class="invalid-feedback">*Campo Obrigatório</div>
       </div>
     </div>
