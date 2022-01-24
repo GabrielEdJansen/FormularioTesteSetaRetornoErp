@@ -230,37 +230,7 @@
           class="form-control ng-pristine ng-untouched ng-scope ng-empty ng-valid-pattern ng-valid ng-valid-required">
         <div class="invalid-feedback">*Campo Obrigatório</div>
       </div>
-       </div>
-
-    <!-- Valor Total/Múltiplos ou Parcelado/Qtd Parcelas/Parcelas iguais? -->
-    <!-- <div class="row">
-      <div class="col-md-4">
-        <label for="VlrTot" class="form-label">Valor Total</label>
-        <input id="VlrTot"
-          class="form-control ng-pristine ng-untouched ng-scope ng-empty ng-valid-pattern ng-valid ng-valid-required">
-        <script type="text/javascript">$("#VlrTot").mask("#.##0,00", { reverse: true });</script>
-      </div>-->
-    <!-- <div class="col-md-2">
-        <label for="MultPar" class="form-label">Múltiplos ou Parcelado?</label>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="MultPar">
-        </div>
-      </div>
-      <div class="col-md-3">
-        <label for="QntPar" class="form-label">Qtd Parcelas</label>
-        <select class="form-select" aria-label="Default select example">
-          <option selected>Selecione a quantidade de parcelas</option>
-          <option id="QntPar1">1</option>
-          <option id="QntPar2">2</option>
-          <option id="QntPar3">3</option>
-        </select>
-      </div>
-      <div class="col-md-3">
-        <label for="CenCus" class="form-label">Parcelas Iguais?</label>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="CenCus">
-        </div>
-      </div>-->
+    </div>
     </div>
     <!---------------------------------------------------------------------------------------------------->
     <h5>DADOS PAGAMENTO</h5>
@@ -329,7 +299,7 @@
       </div>
     </div>
     <!-- Banco -->
-    <div class="row" id="PagBanco" style="display: none;">
+    <div class="row" id="PagBanco" style="display: flex;">
       <div class="col-md-12">
         <label for="ForPagBanco" class="form-label">Banco</label>
         <input disabled id="ForPagBanco" type="text"
@@ -338,7 +308,7 @@
       </div>
     </div>
     <!-- Agencia/Conta -->
-    <div class="row" id="PagBancoAge" style="display: none;">
+    <div class="row" id="PagBancoAge" style="display: flex;">
       <div class="col-md-6">
         <label for="ForPagAgencia" class="form-label">Agencia</label>
         <input disabled id="ForPagAgencia" type="text"
@@ -353,7 +323,7 @@
       </div>
     </div>
     <!-- Chave PIX -->
-    <div class="row" id="PagPix" style="display: none;">
+    <div class="row" id="PagPix" style="display: flex;">
       <div class="col-md-6">
         <label for="ForPagChavePix" class="form-label">Chave PIX</label>
         <input disabled id="ForPagChavePix" type="text"
@@ -409,7 +379,7 @@
       </div>
     </div>
     <!-- Código Boleto 1 -->
-    <div class="row" id="parcela1Bol" style="display: none;">
+    <div class="row" id="parcela1Bol" style="display: flex;">
       <div class="col-md-12">
         <label for="CodBolUm" class="form-label">Código Boleto 1</label>
         <input disabled id="CodBolUm" type="text" value=""
@@ -428,7 +398,7 @@
       </div>
     </div>-->
     <!-- Seq2/Descrição Parcela 2/Valor Parcela 2/Data Parcela 2 -->
-    <div class="row" id="parcela2" style="display: none;">
+    <div class="row" id="parcela2" style="display: flex;">
       <!--  <div class="col-md-3">
         <label for="SeqDois" class="form-label">Seq2</label>
         <input id="SeqDois" type="text" disabled
@@ -454,7 +424,7 @@
       </div>
     </div>
     <!-- Código Boleto 2 -->
-    <div class="row" id="parcela2Bol" style="display: none">
+    <div class="row" id="parcela2Bol" style="display: flex">
       <div class="col-md-12">
         <label for="CodBolDois" class="form-label">Código Boleto 2</label>
         <input disabled id="CodBolDois" type="text" value=""
@@ -473,7 +443,7 @@
       </div>
     </div>-->
     <!-- Seq3/Descrição Parcela 3/Valor Parcela 3/Data Parcela 3 -->
-    <div class="row" id="parcela3" style="display: none;">
+    <div class="row" id="parcela3" style="display: flex;">
       <!--<div class="col-md-3">
         <label for="SeqTres" class="form-label">Seq3</label>
         <input id="SeqTres" type="text" disabled
@@ -499,7 +469,7 @@
       </div>
     </div>
     <!-- Código Boleto 3 -->
-    <div class="row" id="parcela3Bol" style="display: none;">
+    <div class="row" id="parcela3Bol" style="display: flex;">
       <div class="col-md-12">
         <label for="CodBolTres" class="form-label">Código Boleto 3</label>
         <input disabled id="CodBolTres" type="text" value=""
@@ -509,7 +479,7 @@
     </div>
 
     <!----------------------------------------------------------------Parcela 4---------------------------------------------------------------->
-    <div class="row" id="parcela4" style="display: none;">
+    <div class="row" id="parcela4" style="display: flex;">
       <div class="col-md-3">
         <label for="DescParQuatro" class="form-label">Descrição Parcela 4</label>
         <input disabled id="DescParQuatro" type="text" value=""
@@ -531,7 +501,7 @@
       </div>
     </div>
     <!-- Código Boleto 4 -->
-    <div class="row" id="parcela4Bol" style="display: none;">
+    <div class="row" id="parcela4Bol" style="display: flex;">
       <div class="col-md-12">
         <label for="CodBolQuatro" class="form-label">Código Boleto 4</label>
         <input disabled id="CodBolQuatro" type="text" value=""
@@ -541,7 +511,7 @@
     </div>
 
     <!----------------------------------------------------------------Parcela 5---------------------------------------------------------------->
-    <div class="row" id="parcela5" style="display: none;">
+    <div class="row" id="parcela5" style="display: flex;">
       <div class="col-md-3">
         <label for="DescParCinco" class="form-label">Descrição Parcela 5</label>
         <input disabled id="DescParCinco" type="text" value=""
@@ -563,7 +533,7 @@
       </div>
     </div>
     <!-- Código Boleto 5 -->
-    <div class="row" id="parcela5Bol" style="display: none;">
+    <div class="row" id="parcela5Bol" style="display: flex;">
       <div class="col-md-12">
         <label for="CodBolCinco" class="form-label">Código Boleto 5</label>
         <input disabled id="CodBolCinco" type="text" value=""
@@ -573,7 +543,7 @@
     </div>
 
     <!----------------------------------------------------------------Parcela 6---------------------------------------------------------------->
-    <div class="row" id="parcela6" style="display: none;">
+    <div class="row" id="parcela6" style="display: flex;">
       <div class="col-md-3">
         <label for="DescParSeis" class="form-label">Descrição Parcela 6</label>
         <input disabled id="DescParSeis" type="text" value=""
@@ -594,7 +564,7 @@
       </div>
     </div>
     <!-- Código Boleto 6 -->
-    <div class="row" id="parcela6Bol" style="display: none;">
+    <div class="row" id="parcela6Bol" style="display: flex;">
       <div class="col-md-12">
         <label for="CodBolSeis" class="form-label">Código Boleto 6</label>
         <input disabled id="CodBolSeis" type="text" value=""
@@ -604,7 +574,7 @@
     </div>
 
     <!----------------------------------------------------------------Parcela 7---------------------------------------------------------------->
-    <div class="row" id="parcela7" style="display: none;">
+    <div class="row" id="parcela7" style="display: flex;">
       <div class="col-md-3">
         <label for="DescParSete" class="form-label">Descrição Parcela 7</label>
         <input disabled id="DescParSete" type="text" value=""
@@ -625,7 +595,7 @@
       </div>
     </div>
     <!-- Código Boleto 7 -->
-    <div class="row" id="parcela7Bol" style="display: none;">
+    <div class="row" id="parcela7Bol" style="display: flex;">
       <div class="col-md-12">
         <label for="CodBolSete" class="form-label">Código Boleto 7</label>
         <input disabled id="CodBolSete" type="text" value=""
@@ -635,7 +605,7 @@
     </div>
 
     <!----------------------------------------------------------------Parcela 8---------------------------------------------------------------->
-    <div class="row" id="parcela8" style="display: none;">
+    <div class="row" id="parcela8" style="display: flex;">
       <div class="col-md-3">
         <label for="DescParOito" class="form-label">Descrição Parcela 8</label>
         <input disabled id="DescParOito" type="text" value=""
@@ -656,7 +626,7 @@
       </div>
     </div>
     <!-- Código Boleto 8 -->
-    <div class="row" id="parcela8Bol" style="display: none;">
+    <div class="row" id="parcela8Bol" style="display: flex;">
       <div class="col-md-12">
         <label for="CodBolOito" class="form-label">Código Boleto 8</label>
         <input disabled id="CodBolOito" type="text" value=""
@@ -666,7 +636,7 @@
     </div>
 
     <!----------------------------------------------------------------Parcela 9---------------------------------------------------------------->
-    <div class="row" id="parcela9" style="display: none;">
+    <div class="row" id="parcela9" style="display: flex;">
       <div class="col-md-3">
         <label for="DescParNove" class="form-label">Descrição Parcela 9</label>
         <input disabled id="DescParNove" type="text" oninput="javascript:calculaTotal();" value=""
@@ -687,7 +657,7 @@
       </div>
     </div>
     <!-- Código Boleto 9 -->
-    <div class="row" id="parcela9Bol" style="display: none;">
+    <div class="row" id="parcela9Bol" style="display: flex;">
       <div class="col-md-12">
         <label for="CodBolNove" class="form-label">Código Boleto 9</label>
         <input disabled id="CodBolNove" type="text" value=""
@@ -697,7 +667,7 @@
     </div>
 
     <!----------------------------------------------------------------Parcela 10---------------------------------------------------------------->
-    <div class="row" id="parcela10" style="display: none;">
+    <div class="row" id="parcela10" style="display: flex;">
       <div class="col-md-3">
         <label for="DescParDez" class="form-label">Descrição Parcela 10</label>
         <input disabled id="DescParDez" type="text" value=""
@@ -718,7 +688,7 @@
       </div>
     </div>
     <!-- Código Boleto 10 -->
-    <div class="row" id="parcela10Bol" style="display: none;">
+    <div class="row" id="parcela10Bol" style="display: flex;">
       <div class="col-md-12">
         <label for="CodBolDez" class="form-label">Código Boleto 10</label>
         <input disabled id="CodBolDez" type="text" value=""
@@ -728,7 +698,7 @@
     </div>
 
     <!----------------------------------------------------------------Parcela 11---------------------------------------------------------------->
-    <div class="row" id="parcela11" style="display: none;">
+    <div class="row" id="parcela11" style="display: flex;">
       <div class="col-md-3">
         <label for="DescParOnze" class="form-label">Descrição Parcela 11</label>
         <input disabled id="DescParOnze" type="text" value=""
@@ -749,7 +719,7 @@
       </div>
     </div>
     <!-- Código Boleto 11 -->
-    <div class="row" id="parcela11Bol" style="display: none;">
+    <div class="row" id="parcela11Bol" style="display: flex;">
       <div class="col-md-12">
         <label for="CodBolOnze" class="form-label">Código Boleto 11</label>
         <input disabled id="CodBolOnze" type="text" value=""
@@ -759,7 +729,7 @@
     </div>
 
     <!----------------------------------------------------------------Parcela 12---------------------------------------------------------------->
-    <div class="row" id="parcela12" style="display: none;">
+    <div class="row" id="parcela12" style="display: flex;">
       <div class="col-md-3">
         <label for="DescParDoze" class="form-label">Descrição Parcela 12</label>
         <input disabled id="DescParDoze" type="text" value=""
@@ -780,7 +750,7 @@
       </div>
     </div>
     <!-- Código Boleto 12 -->
-    <div class="row" id="parcela12Bol" style="display: none;">
+    <div class="row" id="parcela12Bol" style="display: flex;">
       <div class="col-md-12">
         <label for="CodBolDoze" class="form-label">Código Boleto 12</label>
         <input disabled id="CodBolDoze" type="text" value=""
