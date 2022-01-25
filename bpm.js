@@ -1,6 +1,6 @@
 function exibiParcelasComValorAcimaDeZero() {
 
-    if (document.getElementById("VlrParDois").value = 0) {
+    if (document.getElementById("VlrParDois").value == 0) {
         let eBol2 = document.getElementById('parcela2');
 
         eBol2.style.display = 'none';
@@ -10,7 +10,7 @@ function exibiParcelasComValorAcimaDeZero() {
         eBol.style.display = 'none';
     }  
 
-    if (document.getElementById("VlrParTres").value = 0) {
+    if (document.getElementById("VlrParTres").value == 0) {
         let eBol3 = document.getElementById('parcela3');
 
         eBol3.style.display = 'none';
@@ -20,7 +20,7 @@ function exibiParcelasComValorAcimaDeZero() {
         eBol.style.display = 'none';
     } 
 
-    if (document.getElementById("VlrParQuatro").value = 0) {
+    if (document.getElementById("VlrParQuatro").value == 0) {
         let eBol4 = document.getElementById('parcela4');
 
         eBol4.style.display = 'none';
@@ -30,7 +30,7 @@ function exibiParcelasComValorAcimaDeZero() {
         eBol.style.display = 'none';
     } 
 
-    if (document.getElementById("VlrParCinco").value = 0) {
+    if (document.getElementById("VlrParCinco").value == 0) {
         let eBol5 = document.getElementById('parcela5');
 
         eBol5.style.display = 'none';
@@ -40,7 +40,7 @@ function exibiParcelasComValorAcimaDeZero() {
         eBol.style.display = 'none';
     } 
 
-    if (document.getElementById("VlrParSeis").value = 0) {
+    if (document.getElementById("VlrParSeis").value == 0) {
         let eBol6 = document.getElementById('parcela6');
 
         eBol6.style.display = 'none';
@@ -50,7 +50,7 @@ function exibiParcelasComValorAcimaDeZero() {
         eBol.style.display = 'none';
     } 
 
-    if (document.getElementById("VlrParSete").value = 0) {
+    if (document.getElementById("VlrParSete").value == 0) {
         let eBol7 = document.getElementById('parcela7');
 
         eBol7.style.display = 'none';
@@ -60,7 +60,7 @@ function exibiParcelasComValorAcimaDeZero() {
         eBol.style.display = 'none';
     } 
 
-    if (document.getElementById("VlrParOito").value = 0) {
+    if (document.getElementById("VlrParOito").value == 0) {
         let eBol8 = document.getElementById('parcela8');
 
         eBol8.style.display = 'none';
@@ -70,7 +70,7 @@ function exibiParcelasComValorAcimaDeZero() {
         eBol.style.display = 'none';
     } 
 
-    if (document.getElementById("VlrParNove").value = 0) {
+    if (document.getElementById("VlrParNove").value == 0) {
         let eBol9 = document.getElementById('parcela9');
 
         eBol9.style.display = 'none';
@@ -80,7 +80,7 @@ function exibiParcelasComValorAcimaDeZero() {
         eBol.style.display = 'none';
     } 
 
-    if (document.getElementById("VlrParDez").value = 0) {
+    if (document.getElementById("VlrParDez").value == 0) {
         let eBol10 = document.getElementById('parcela10');
 
         eBol10.style.display = 'none';
@@ -90,7 +90,7 @@ function exibiParcelasComValorAcimaDeZero() {
         eBol.style.display = 'none';
     } 
 
-    if (document.getElementById("VlrParOnze").value = 0) {
+    if (document.getElementById("VlrParOnze").value == 0) {
         let eBol11 = document.getElementById('parcela11');
 
         eBol11.style.display = 'none';
@@ -100,7 +100,7 @@ function exibiParcelasComValorAcimaDeZero() {
         eBol.style.display = 'none';
     } 
 
-    if (document.getElementById("VlrParDoze").value = 0) {
+    if (document.getElementById("VlrParDoze").value == 0) {
         let eBol12 = document.getElementById('parcela12');
 
         eBol12.style.display = 'none';
