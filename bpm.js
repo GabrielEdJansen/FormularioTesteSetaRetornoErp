@@ -809,7 +809,7 @@ function _init(data, info) {
             document.getElementById("ForPagConta").setAttribute("value", ForPagConta);
             document.getElementById("ForPagChavePix").setAttribute("value", ForPagChavePix);
             
-            inserirLinhaTabela();
+            //inserirLinhaTabela();
         }
     });
 }
