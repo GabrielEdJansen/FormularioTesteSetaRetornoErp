@@ -1,5 +1,5 @@
 function selecionaTipoFormulario() {
-    if (selectTipFor == 'Adiantamento') {
+    if (document.getElementById("selectTipFor").value == 'Adiantamento') {
 
         let eVal = document.getElementById('PagNumNf');
 
@@ -7,7 +7,7 @@ function selecionaTipoFormulario() {
 
         document.getElementById("NumNf").value = ''
     }
-    if (selectTipFor == 'Pagamento') {
+    if (document.getElementById("selectTipFor").value == 'Pagamento') {
 
         let eVal = document.getElementById('PagNumNf');
 
@@ -17,7 +17,6 @@ function selecionaTipoFormulario() {
     }
 }
 function ExibeBoleto() {
-    inserirLinhaTabela();
     if (document.getElementById("selectFormPag").value == 'Boleto') {
 
         document.getElementById("ForPagChavePix").value = ''
