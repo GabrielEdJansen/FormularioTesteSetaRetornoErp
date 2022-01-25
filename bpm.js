@@ -822,11 +822,94 @@ function _saveData(data, info) {
     calculaTotal()
     let newData = {};
 
+    let selectForm = document.getElementById("selectTipFor");
+    newData.selectTipFor = selectForm.options[selectForm.selectedIndex].value;
+
+    let selectEmp = document.getElementById("selectEmpFil");
+    newData.selectEmpFil = selectEmp.options[selectEmp.selectedIndex].value;
+
+    let selectFormPagamento = document.getElementById("selectFormPag");
+    newData.selectFormPag = selectFormPagamento.options[selectFormPagamento.selectedIndex].value;
+
+    newData.DatSol = document.getElementById("DatSol").value;
     newData.Fornec = document.getElementById("Fornec").value;
     newData.Cnpj = document.getElementById("Cnpj").value;
     newData.Proj = document.getElementById("Proj").value;
     newData.ConFin = document.getElementById("ConFin").value;
     newData.CenCus = document.getElementById("CenCus").value;
+    newData.DatPag = document.getElementById("DatPag").value;
+    newData.NumNf = document.getElementById("NumNf").value;
+    newData.DatPre = document.getElementById("DatPre").value;
+    newData.ObsPag = document.getElementById("ObsPag").value;
+
+    newData.nomFun = document.getElementById("nomFun").value;
+    newData.emaFun = document.getElementById("emaFun").value;
+
+    newData.DescParUm = document.getElementById("DescParUm").value;
+    newData.VlrParUm = document.getElementById("VlrParUm").value;
+    newData.DatParUm = document.getElementById("DatParUm").value;
+    newData.CodBolUm = document.getElementById("CodBolUm").value;
+
+    newData.DescParDois = document.getElementById("DescParDois").value;
+    newData.VlrParDois = document.getElementById("VlrParDois").value;
+    newData.DatParDois = document.getElementById("DatParDois").value;
+    newData.CodBolDois = document.getElementById("CodBolDois").value;
+
+    newData.DescParTres = document.getElementById("DescParTres").value;
+    newData.VlrParTres = document.getElementById("VlrParTres").value;
+    newData.DatParTres = document.getElementById("DatParTres").value;
+    newData.CodBolTres = document.getElementById("CodBolTres").value;
+
+    newData.DescParQuatro = document.getElementById("DescParQuatro").value;
+    newData.VlrParQuatro = document.getElementById("VlrParQuatro").value;
+    newData.DatParQuatro = document.getElementById("DatParQuatro").value;
+    newData.CodBolQuatro = document.getElementById("CodBolQuatro").value;
+
+    newData.DescParCinco = document.getElementById("DescParCinco").value;
+    newData.VlrParCinco = document.getElementById("VlrParCinco").value;
+    newData.DatParCinco = document.getElementById("DatParCinco").value;
+    newData.CodBolCinco = document.getElementById("CodBolCinco").value;
+
+    newData.DescParSeis = document.getElementById("DescParSeis").value;
+    newData.VlrParSeis = document.getElementById("VlrParSeis").value;
+    newData.DatParSeis = document.getElementById("DatParSeis").value;
+    newData.CodBolSeis = document.getElementById("CodBolSeis").value;
+
+    newData.DescParSete = document.getElementById("DescParSete").value;
+    newData.VlrParSete = document.getElementById("VlrParSete").value;
+    newData.DatParSete = document.getElementById("DatParSete").value;
+    newData.CodBolSete = document.getElementById("CodBolSete").value;
+
+    newData.DescParOito = document.getElementById("DescParOito").value;
+    newData.VlrParOito = document.getElementById("VlrParOito").value;
+    newData.DatParOito = document.getElementById("DatParOito").value;
+    newData.CodBolOito = document.getElementById("CodBolOito").value;
+
+    newData.DescParNove = document.getElementById("DescParNove").value;
+    newData.VlrParNove = document.getElementById("VlrParNove").value;
+    newData.DatParNove = document.getElementById("DatParNove").value;
+    newData.CodBolNove = document.getElementById("CodBolNove").value;
+
+    newData.DescParDez = document.getElementById("DescParDez").value;
+    newData.VlrParDez = document.getElementById("VlrParDez").value;
+    newData.DatParDez = document.getElementById("DatParDez").value;
+    newData.CodBolDez = document.getElementById("CodBolDez").value;
+
+    newData.DescParOnze = document.getElementById("DescParOnze").value;
+    newData.VlrParOnze = document.getElementById("VlrParOnze").value;
+    newData.DatParOnze = document.getElementById("DatParOnze").value;
+    newData.CodBolOnze = document.getElementById("CodBolOnze").value;
+
+    newData.DescParDoze = document.getElementById("DescParDoze").value;
+    newData.VlrParDoze = document.getElementById("VlrParDoze").value;
+    newData.DatParDoze = document.getElementById("DatParDoze").value;
+    newData.CodBolDoze = document.getElementById("CodBolDoze").value;
+
+    newData.TotalPagarPar = document.getElementById("TotalPagarPar").value;
+    newData.ForPagBanco = document.getElementById("ForPagBanco").value;
+    newData.ForPagAgencia = document.getElementById("ForPagAgencia").value;
+    newData.ForPagConta = document.getElementById("ForPagConta").value;
+    newData.ForPagChavePix = document.getElementById("ForPagChavePix").value;
 
     console.log(newData);
     return {
