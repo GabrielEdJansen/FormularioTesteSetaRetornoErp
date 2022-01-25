@@ -644,6 +644,7 @@ function _init(data, info) {
             console.log("Carregando Dados", map);
             const nomFun = map.get("nomFun");
             const emaFun = map.get("emaFun");
+            const DatPag = map.get("DatPag");
             const selectEmpFil = map.get("selectEmpFil");
             const selectTipFor = map.get("selectTipFor");
             const selectFormPag = map.get("selectFormPag");
@@ -654,7 +655,7 @@ function _init(data, info) {
             const ObsRetErp = map.get("ObsRetErp");
             const ConFin = map.get("ConFin");
             const CenCus = map.get("CenCus");
-            const DatPag = map.get("DatPag");
+            
             const NumNf = map.get("NumNf");
             const DatPre = map.get("DatPre");
             const ObsPag = map.get("ObsPag");
