@@ -291,7 +291,6 @@ function _init(data, info) {
             const Fornec = map.get("Fornec");
             const Cnpj = map.get("Cnpj");
             const Proj = map.get("Proj");
-            const ObsRetErp = map.get("ObsRetErp");
             const ConFin = map.get("ConFin");
             const CenCus = map.get("CenCus");
             
@@ -374,7 +373,6 @@ function _init(data, info) {
             document.getElementById("Fornec").setAttribute("value", Fornec);
             document.getElementById("Cnpj").setAttribute("value", Cnpj);
             document.getElementById("Proj").setAttribute("value", Proj);
-            document.getElementById("ObsRetErp").setAttribute("value", ObsRetErp);
             document.getElementById("ConFin").setAttribute("value", ConFin);
             document.getElementById("CenCus").setAttribute("value", CenCus);
             document.getElementById("DatPag").setAttribute("value", DatPag);
