@@ -1,5 +1,5 @@
 function selecionaTipoFormulario() {
-    if (document.getElementById("selectTipFor").value == 'Adiantamento') {
+    if (selectTipFor == 'Adiantamento') {
 
         let eVal = document.getElementById('PagNumNf');
 
@@ -7,7 +7,7 @@ function selecionaTipoFormulario() {
 
         document.getElementById("NumNf").value = ''
     }
-    if (document.getElementById("selectTipFor").value == 'Pagamento') {
+    if (selectTipFor == 'Pagamento') {
 
         let eVal = document.getElementById('PagNumNf');
 
