@@ -286,7 +286,7 @@ function ExibirFormaPagamento() {
         eBol12.style.display = 'none';
 
     }
-    if (document.getElementById("selectFormPag").value == 'Depósito') {
+    if (document.getElementById("selectFormPag").value == 'Deposito') {
         
         document.getElementById("CodBolUm").value = ''
         document.getElementById("CodBolDois").value = ''
