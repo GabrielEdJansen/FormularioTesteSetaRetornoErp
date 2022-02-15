@@ -115,19 +115,19 @@ function exibiParcelasComValorAcimaDeZero() {
 function selecionaTipoFormulario() {
     if (document.getElementById("selectTipFor").value == 'Adiantamento') {
 
-        let eVal = document.getElementById('PagNumNf');
+        let eVal = document.getElementById('PagDatPre');
 
         eVal.style.display = 'flex';
 
-        document.getElementById("NumNf").value = ''
+        document.getElementById("DatPre").value = ''
     }
     if (document.getElementById("selectTipFor").value == 'Pagamento') {
 
-        let eVal = document.getElementById('PagNumNf');
+        let eVal = document.getElementById('PagDatPre');
 
         eVal.style.display = 'none';
 
-        document.getElementById("NumNf").value = ''
+        document.getElementById("DatPre").value = ''
     }
 }
 function ExibeBoleto() {
