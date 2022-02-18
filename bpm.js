@@ -1,3 +1,80 @@
+function onSelectFormPagLimp() {
+    document.getElementById("ForPagChavePix").value = null
+    $("#ForPagChavePix").unmask();
+    document.getElementById("ForPagChavePix").setAttribute("class", "form-control ng-pristine ng-untouched ng-scope ng-empty ng-valid-pattern ng-valid ng-valid-required is-invalid");
+
+    var input = $("#ForPagChavePix");
+    input.attr("disabled", false);
+
+    if (document.getElementById("selectTipPix").value == 'Selecione o Tipo de Chave Pix') {
+        var input = $("#ForPagChavePix");
+        input.attr("disabled", true);
+    }
+}
+
+function onSelectFormPag(field) {
+
+    if (document.getElementById("selectFormPag").value == 'Pix') {
+
+        if (document.getElementById("selectTipPix").value == 2) {
+
+            usuario = field.value.substring(0, field.value.indexOf("@"));
+            dominio = field.value.substring(field.value.indexOf("@") + 1, field.value.length);
+
+            if ((usuario.length >= 1) &&
+                (dominio.length >= 3) &&
+                (usuario.search("@") == -1) &&
+                (dominio.search("@") == -1) &&
+                (usuario.search(" ") == -1) &&
+                (dominio.search(" ") == -1) &&
+                (dominio.search(".") != -1) &&
+                (dominio.indexOf(".") >= 1) &&
+                (dominio.lastIndexOf(".") < dominio.length - 1)) {
+
+                document.getElementById("ForPagChavePix").setAttribute("class", "form-control ng-pristine ng-untouched ng-scope ng-empty ng-valid-pattern ng-valid ng-valid-required is-valid");
+            }
+            else {
+                document.getElementById("ForPagChavePix").setAttribute("class", "form-control ng-pristine ng-untouched ng-scope ng-empty ng-valid-pattern ng-valid ng-valid-required is-invalid");
+            }
+        }
+        if (document.getElementById("selectTipPix").value == 1) {
+            $("#ForPagChavePix").unmask();
+            if ($('#ForPagChavePix').val().length <= 10) {
+                $('#ForPagChavePix').mask("(99) 9999-9999");
+                document.getElementById("ForPagChavePix").setAttribute("class", "form-control ng-pristine ng-untouched ng-scope ng-empty ng-valid-pattern ng-valid ng-valid-required is-valid");
+            } else {
+                $('#ForPagChavePix').mask("(99)9 9999-9999");
+                document.getElementById("ForPagChavePix").setAttribute("class", "form-control ng-pristine ng-untouched ng-scope ng-empty ng-valid-pattern ng-valid ng-valid-required is-valid");
+            }
+
+            if ($('#ForPagChavePix').val().length < 14) {
+                document.getElementById("ForPagChavePix").setAttribute("class", "form-control ng-pristine ng-untouched ng-scope ng-empty ng-valid-pattern ng-valid ng-valid-required is-invalid");
+            }
+
+        }
+
+        if (document.getElementById("selectTipPix").value == 3) {
+            var vlrCha = $('#ForPagChavePix').val()
+
+            const masks = ['000.000.000-000', '00.000.000/0000-00'];
+            if (vlrCha.length > 14) {
+                $('#ForPagChavePix').mask(masks[1]);
+            } else {
+                $('#ForPagChavePix').mask(masks[0]);
+            }
+        }
+
+        if (document.getElementById("selectTipPix").value == 4) {
+            if (document.getElementById("ForPagChavePix").value != '') {
+                document.getElementById("ForPagChavePix").setAttribute("class", "form-control ng-pristine ng-untouched ng-scope ng-empty ng-valid-pattern ng-valid ng-valid-required is-valid");
+            } else {
+                document.getElementById("ForPagChavePix").setAttribute("class", "form-control ng-pristine ng-untouched ng-scope ng-empty ng-valid-pattern ng-valid ng-valid-required is-invalid");
+            }
+        }
+    }
+
+}
+
 function preencheCnpjEmp(){
    
     var CodEmp = document.getElementById("selectEmpFil").value
