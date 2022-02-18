@@ -75,110 +75,110 @@ function onSelectFormPag(field) {
 
 }
 
-function preencheCnpjEmp(){
-   
+function preencheCnpjEmp() {
+
     var CodEmp = document.getElementById("selectEmpFil").value
 
-    if(CodEmp == "1-1"){
+    if (CodEmp == "1-1") {
         document.getElementById("cnpjEmp").value = "76.359.785/0001-55"
     }
-    if(CodEmp == "2-1"){
+    if (CodEmp == "2-1") {
         document.getElementById("cnpjEmp").value = "05.637.333/0001-40"
     }
-    if(CodEmp == "3-1"){
+    if (CodEmp == "3-1") {
         document.getElementById("cnpjEmp").value = "08.089.186/0001-09"
     }
-    if(CodEmp == "4-4"){
+    if (CodEmp == "4-4") {
         document.getElementById("cnpjEmp").value = "92.094.424/0001-80"
     }
-    if(CodEmp == "5-1"){
+    if (CodEmp == "5-1") {
         document.getElementById("cnpjEmp").value = "19.962.335/0001-19"
     }
-    if(CodEmp == "6-1"){
+    if (CodEmp == "6-1") {
         document.getElementById("cnpjEmp").value = "19.962.348/0001-98"
     }
-    if(CodEmp == "7-1"){
+    if (CodEmp == "7-1") {
         document.getElementById("cnpjEmp").value = "21.536.523/0001-27"
     }
-    if(CodEmp == "8-1"){
+    if (CodEmp == "8-1") {
         document.getElementById("cnpjEmp").value = "24.353.603/0001-35"
     }
-    if(CodEmp == "9-1"){
+    if (CodEmp == "9-1") {
         document.getElementById("cnpjEmp").value = "24.303.280/0001-75"
     }
-    if(CodEmp == "10-1"){
+    if (CodEmp == "10-1") {
         document.getElementById("cnpjEmp").value = "24.303.280/0001-75"
     }
-    if(CodEmp == "11-1"){
+    if (CodEmp == "11-1") {
         document.getElementById("cnpjEmp").value = "24.332.817/0001-25"
     }
-    if(CodEmp == "12-1"){
+    if (CodEmp == "12-1") {
         document.getElementById("cnpjEmp").value = "24.303.326/0001-56"
     }
-    if(CodEmp == "13-1"){
+    if (CodEmp == "13-1") {
         document.getElementById("cnpjEmp").value = "24.636.349/0001-82"
     }
-    if(CodEmp == "14-1"){
+    if (CodEmp == "14-1") {
         document.getElementById("cnpjEmp").value = "26.932.581/0001-93"
     }
-    if(CodEmp == "15-1"){
+    if (CodEmp == "15-1") {
         document.getElementById("cnpjEmp").value = "27.550.317/0001-58"
     }
-    if(CodEmp == "16-1"){
+    if (CodEmp == "16-1") {
         document.getElementById("cnpjEmp").value = "28.507.748/0001-02"
     }
-    if(CodEmp == "17-1"){
+    if (CodEmp == "17-1") {
         document.getElementById("cnpjEmp").value = "31.180.350/0001-00"
     }
-    if(CodEmp == "18-1"){
+    if (CodEmp == "18-1") {
         document.getElementById("cnpjEmp").value = "30.953.781/0001-08"
     }
-    if(CodEmp == "19-1"){
+    if (CodEmp == "19-1") {
         document.getElementById("cnpjEmp").value = "32.059.213/0001-85"
     }
-    if(CodEmp == "20-1"){
+    if (CodEmp == "20-1") {
         document.getElementById("cnpjEmp").value = "33.864.175/0001-04"
     }
-    if(CodEmp == "21-1"){
+    if (CodEmp == "21-1") {
         document.getElementById("cnpjEmp").value = "34.251.859/0001-95"
     }
-    if(CodEmp == "22-1"){
+    if (CodEmp == "22-1") {
         document.getElementById("cnpjEmp").value = "34.914.501/0001-03"
     }
-    if(CodEmp == "23-1"){
+    if (CodEmp == "23-1") {
         document.getElementById("cnpjEmp").value = "36.087.985/0001-81"
     }
-    if(CodEmp == "24-1"){
+    if (CodEmp == "24-1") {
         document.getElementById("cnpjEmp").value = "36.089.488/0001-12"
     }
-    if(CodEmp == "25-1"){
+    if (CodEmp == "25-1") {
         document.getElementById("cnpjEmp").value = "35.693.154/0001-90"
     }
-    if(CodEmp == "26-1"){
+    if (CodEmp == "26-1") {
         document.getElementById("cnpjEmp").value = "36.875.400/0001-98"
     }
-    if(CodEmp == "27-1"){
+    if (CodEmp == "27-1") {
         document.getElementById("cnpjEmp").value = "39.463.058/0001-07"
     }
-    if(CodEmp == "28-1"){
+    if (CodEmp == "28-1") {
         document.getElementById("cnpjEmp").value = "35.591.186/0001-85"
     }
-    if(CodEmp == "29-1"){
+    if (CodEmp == "29-1") {
         document.getElementById("cnpjEmp").value = "40.212.095/0001-21"
     }
-    if(CodEmp == "30-1"){
+    if (CodEmp == "30-1") {
         document.getElementById("cnpjEmp").value = "40.709.154/0001-71"
     }
-    if(CodEmp == "31-1"){
+    if (CodEmp == "31-1") {
         document.getElementById("cnpjEmp").value = "40.955.615/0001-96"
     }
-    if(CodEmp == "32-1"){
+    if (CodEmp == "32-1") {
         document.getElementById("cnpjEmp").value = "00.000.000/0000-00"
     }
-    if(CodEmp == "33-1"){
+    if (CodEmp == "33-1") {
         document.getElementById("cnpjEmp").value = "00.000.000/0000-00"
     }
-    if(CodEmp == "34-1"){
+    if (CodEmp == "34-1") {
         document.getElementById("cnpjEmp").value = "44.700.480/0001-79"
     }
 }
@@ -194,7 +194,7 @@ function exibiParcelasComValorAcimaDeZero() {
         let eBol = document.getElementById('parcela2Bol');
 
         eBol.style.display = 'none';
-    }  
+    }
 
     if (document.getElementById("VlrParTres").value == 0) {
         let eBol3 = document.getElementById('parcela3');
@@ -204,7 +204,7 @@ function exibiParcelasComValorAcimaDeZero() {
         let eBol = document.getElementById('parcela3Bol');
 
         eBol.style.display = 'none';
-    } 
+    }
 
     if (document.getElementById("VlrParQuatro").value == 0) {
         let eBol4 = document.getElementById('parcela4');
@@ -214,7 +214,7 @@ function exibiParcelasComValorAcimaDeZero() {
         let eBol = document.getElementById('parcela4Bol');
 
         eBol.style.display = 'none';
-    } 
+    }
 
     if (document.getElementById("VlrParCinco").value == 0) {
         let eBol5 = document.getElementById('parcela5');
@@ -224,7 +224,7 @@ function exibiParcelasComValorAcimaDeZero() {
         let eBol = document.getElementById('parcela5Bol');
 
         eBol.style.display = 'none';
-    } 
+    }
 
     if (document.getElementById("VlrParSeis").value == 0) {
         let eBol6 = document.getElementById('parcela6');
@@ -234,7 +234,7 @@ function exibiParcelasComValorAcimaDeZero() {
         let eBol = document.getElementById('parcela6Bol');
 
         eBol.style.display = 'none';
-    } 
+    }
 
     if (document.getElementById("VlrParSete").value == 0) {
         let eBol7 = document.getElementById('parcela7');
@@ -244,7 +244,7 @@ function exibiParcelasComValorAcimaDeZero() {
         let eBol = document.getElementById('parcela7Bol');
 
         eBol.style.display = 'none';
-    } 
+    }
 
     if (document.getElementById("VlrParOito").value == 0) {
         let eBol8 = document.getElementById('parcela8');
@@ -254,7 +254,7 @@ function exibiParcelasComValorAcimaDeZero() {
         let eBol = document.getElementById('parcela8Bol');
 
         eBol.style.display = 'none';
-    } 
+    }
 
     if (document.getElementById("VlrParNove").value == 0) {
         let eBol9 = document.getElementById('parcela9');
@@ -264,7 +264,7 @@ function exibiParcelasComValorAcimaDeZero() {
         let eBol = document.getElementById('parcela9Bol');
 
         eBol.style.display = 'none';
-    } 
+    }
 
     if (document.getElementById("VlrParDez").value == 0) {
         let eBol10 = document.getElementById('parcela10');
@@ -274,7 +274,7 @@ function exibiParcelasComValorAcimaDeZero() {
         let eBol = document.getElementById('parcela10Bol');
 
         eBol.style.display = 'none';
-    } 
+    }
 
     if (document.getElementById("VlrParOnze").value == 0) {
         let eBol11 = document.getElementById('parcela11');
@@ -284,7 +284,7 @@ function exibiParcelasComValorAcimaDeZero() {
         let eBol = document.getElementById('parcela11Bol');
 
         eBol.style.display = 'none';
-    } 
+    }
 
     if (document.getElementById("VlrParDoze").value == 0) {
         let eBol12 = document.getElementById('parcela12');
@@ -294,7 +294,7 @@ function exibiParcelasComValorAcimaDeZero() {
         let eBol = document.getElementById('parcela12Bol');
 
         eBol.style.display = 'none';
-    } 
+    }
 
 }
 
@@ -322,7 +322,7 @@ function ExibeBoleto() {
 
         document.getElementById("ForPagBanco").value = ''
         document.getElementById("ForPagAgencia").value = ''
-        document.getElementById("ForPagConta").value = ''  
+        document.getElementById("ForPagConta").value = ''
 
 
         if (document.getElementById("VlrParUm").value != 0) {
@@ -431,7 +431,7 @@ function ExibirFormaPagamento() {
 
         document.getElementById("ForPagBanco").value = ''
         document.getElementById("ForPagAgencia").value = ''
-        document.getElementById("ForPagConta").value = ''        
+        document.getElementById("ForPagConta").value = ''
 
         let eVal2 = document.getElementById('PagPix');
 
@@ -472,7 +472,7 @@ function ExibirFormaPagamento() {
 
     }
     if (document.getElementById("selectFormPag").value == 'Deposito') {
-        
+
         document.getElementById("CodBolUm").value = ''
         document.getElementById("CodBolDois").value = ''
         document.getElementById("CodBolTres").value = ''
@@ -488,7 +488,7 @@ function ExibirFormaPagamento() {
 
         document.getElementById("ForPagChavePix").value = ''
 
-        
+
         let eVal = document.getElementById('PagBanco');
 
         eVal.style.display = 'flex';
@@ -591,7 +591,7 @@ function _init(data, info) {
             const Proj = map.get("Proj");
             const ConFin = map.get("ConFin");
             const CenCus = map.get("CenCus");
-            
+
             const NumNf = map.get("NumNf");
             const DatPre = map.get("DatPre");
             const ObsPag = map.get("ObsPag");
@@ -743,7 +743,7 @@ function _init(data, info) {
             document.getElementById("ForPagAgencia").setAttribute("value", ForPagAgencia);
             document.getElementById("ForPagConta").setAttribute("value", ForPagConta);
             document.getElementById("ForPagChavePix").setAttribute("value", ForPagChavePix);
-            
+
             selecionaTipoFormulario()
             ExibeBoleto()
             ExibirFormaPagamento()
@@ -855,7 +855,7 @@ function _saveData(data, info) {
 
     if (CheckInserirChavePix == true) {
         newData.inserirChaPix = "S";
-    }else{
+    } else {
         newData.inserirChaPix = "N";
     }
 
@@ -919,8 +919,23 @@ function isFormValid() {
         document.getElementById("CenCus").setAttribute("class", "form-control ng-pristine ng-untouched ng-scope ng-empty ng-valid-pattern ng-valid ng-valid-required is-valid");
         retornaResultado++
     }
+
+
+    if (document.getElementById("selectFormPag").value == 'Pix') {
+        var isNullForPagChavePix = document.getElementById("ForPagChavePix").value;
+        if (isNullForPagChavePix == '') {
+            document.getElementById("ForPagChavePix").setAttribute("class", "form-control ng-pristine ng-untouched ng-scope ng-empty ng-valid-pattern ng-valid ng-valid-required is-invalid");
+        } else {
+            document.getElementById("ForPagChavePix").setAttribute("class", "form-control ng-pristine ng-untouched ng-scope ng-empty ng-valid-pattern ng-valid ng-valid-required is-valid");
+            retornaResultado++
+        }
+    }
     //--------------------------------------------------RETORNO FUNÇÃO--------------------------------------------------  
-    TotalCampos = 5
+    if (document.getElementById("selectFormPag").value == 'Pix') {
+     TotalCampos = 6
+    }else{
+        TotalCampos = 5
+    }
 
     if (TotalCampos == retornaResultado) {
         return true
