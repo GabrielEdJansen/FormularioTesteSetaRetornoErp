@@ -774,6 +774,14 @@ function _saveData(data, info) {
     newData.ForPagConta = document.getElementById("ForPagConta").value;
     newData.ForPagChavePix = document.getElementById("ForPagChavePix").value;
 
+    let CheckInserirChavePix = document.querySelector('#CheckInserirChavePix').checked
+
+    if (CheckInserirChavePix == true) {
+        newData.inserirChaPix = "S";
+    }else{
+        newData.inserirChaPix = "N";
+    }
+
     console.log(newData);
     return {
         formData: newData,
