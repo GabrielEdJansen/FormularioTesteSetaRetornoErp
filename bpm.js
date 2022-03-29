@@ -596,6 +596,7 @@ function _init(data, info) {
             const selectEmpFil = map.get("selectEmpFil");
             const selectTipFor = map.get("selectTipFor");
             const selectFormPag = map.get("selectFormPag");
+            const FormPagTipTcc = map.get("FormPagTipTcc");
             const selectTipPix = map.get("selectTipPix");
             const DatSol = map.get("DatSol");
             const Fornec = map.get("Fornec");
@@ -679,6 +680,7 @@ function _init(data, info) {
             document.getElementById("selectEmpFil").value = selectEmpFil;
             document.getElementById("selectTipFor").value = selectTipFor;
             document.getElementById("selectFormPag").value = selectFormPag;
+            document.getElementById("FormPagTipTcc").value = FormPagTipTcc;
             document.getElementById("selectTipPix").value = selectTipPix;
             document.getElementById("DatSol").setAttribute("value", DatSol);
             document.getElementById("Fornec").setAttribute("value", Fornec);
@@ -779,6 +781,9 @@ function _saveData(data, info) {
 
     let selectFormPagamento = document.getElementById("selectFormPag");
     newData.selectFormPag = selectFormPagamento.options[selectFormPagamento.selectedIndex].value;
+
+    let FormPagTipConta = document.getElementById("FormPagTipTcc");
+    newData.FormPagTipTcc = FormPagTipConta.options[FormPagTipConta.selectedIndex].value;
 
     let selectTipoPix = document.getElementById("selectTipPix");
     newData.selectTipPix = selectTipoPix.options[selectTipoPix.selectedIndex].value;
