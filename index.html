@@ -242,54 +242,6 @@
         <div class="invalid-feedback">*Campo Obrigatório</div>
       </div>
     </div>
-  <!-- Tipo de Conta -->
-  <div class="row" id="PagBanco" style="display: flex;">
-    <div class="col-md-6">
-    <label required for="FormPagTipTcc" class="form-label">Tipo de Conta</label>
-    <select disabled name="select" id="FormPagTipTcc" class="form-select" aria-label="Default select example">
-      <option selected>Selecione o Tipo de Conta</option>
-      <option value="1">Conta Corrente</option>
-      <option value="2">Conta Poupança</option>
-      <option value="3">Conta Investimento</option>
-      <option value="4">Conta Aplicação Financeira</option>
-      <option value="5">Conta Empréstimo</option>
-      <option value="6">Cota Capital</option>
-      <option value="7">Conta de Retenção</option>
-      <option value="8">Conta da Loja</option>
-      <option value="9">Conta Salário</option>
-      <option value="10">Outros</option>
-    </select>
-    <div class="invalid-feedback">*Campo Obrigatório</div>
-  </div>
-  <!-- Banco -->
-    <div class="col-md-6">
-      <label for="ForPagBanco" class="form-label">Banco</label>
-      <input disabled type="text" id="ForPagBanco"
-        class="form-control ng-pristine ng-untouched ng-scope ng-empty ng-valid-pattern ng-valid ng-valid-required">
-      <script type="text/javascript">
-        $("#ForPagBanco").keypress(function (event) {
-          var character = String.fromCharCode(event.keyCode);
-          return isValid(character);
-        });
-      </script>
-      <div class="invalid-feedback">*Campo Obrigatório</div>
-    </div>
-  </div>
-    <!-- Agencia/Conta -->
-    <div class="row" id="PagBancoAge" style="display: flex;">
-      <div class="col-md-6">
-        <label for="ForPagAgencia" class="form-label">Agencia</label>
-        <input disabled id="ForPagAgencia" type="text"
-          class="form-control ng-pristine ng-untouched ng-scope ng-empty ng-valid-pattern ng-valid ng-valid-required">
-        <div class="invalid-feedback">*Campo Obrigatório</div>
-      </div>
-      <div class="col-md-6">
-        <label for="ForPagConta" class="form-label">Conta</label>
-        <input disabled id="ForPagConta" type="text"
-          class="form-control ng-pristine ng-untouched ng-scope ng-empty ng-valid-pattern ng-valid ng-valid-required">
-        <div class="invalid-feedback">*Campo Obrigatório</div>
-      </div>
-    </div>
     <!-- Chave PIX -->
     <div class="row" id="PagPix" style="display: none;">
       <div class="col-md-4">
